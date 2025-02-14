@@ -1,0 +1,46 @@
+[debug] [2025-02-14T15:30:12.311Z] ----------------------------------------------------------------------
+[debug] [2025-02-14T15:30:12.313Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-02-14T15:30:12.314Z] CLI Version:   13.31.1
+[debug] [2025-02-14T15:30:12.314Z] Platform:      win32
+[debug] [2025-02-14T15:30:12.314Z] Node Version:  v18.14.1
+[debug] [2025-02-14T15:30:12.315Z] Time:          Fri Feb 14 2025 20:30:12 GMT+0500 (Pakistan Standard Time)
+[debug] [2025-02-14T15:30:12.315Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-14T15:30:12.322Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-14T15:30:12.323Z] > authorizing via signed-in user (aqsamahmood131@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP\Desktop\javascript practice\firebase authentication
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-14T15:30:24.594Z] Checked if tokens are valid: true, expires at: 1739548480880
+[debug] [2025-02-14T15:30:24.594Z] Checked if tokens are valid: true, expires at: 1739548480880
+[debug] [2025-02-14T15:30:24.596Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-02-14T15:30:25.273Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-02-14T15:30:25.273Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fir-authentication-1f5bf (firebase authentication) 
+[info] 
+=== Hosting Setup
+[debug] [2025-02-14T15:30:29.107Z] Checked if tokens are valid: true, expires at: 1739548480880
+[debug] [2025-02-14T15:30:29.108Z] Checked if tokens are valid: true, expires at: 1739548480880
+[debug] [2025-02-14T15:30:29.108Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-1f5bf [none]
+[debug] [2025-02-14T15:30:29.684Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-1f5bf 200
+[debug] [2025-02-14T15:30:29.684Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-authentication-1f5bf {"projectId":"fir-authentication-1f5bf","projectNumber":"418328090733","displayName":"firebase authentication","name":"projects/fir-authentication-1f5bf","resources":{"hostingSite":"fir-authentication-1f5bf"},"state":"ACTIVE","etag":"1_57dbdbe9-bdcf-4e81-9e6f-cf47e52bd3ea"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
